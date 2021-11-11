@@ -1,0 +1,19 @@
+
+#
+# Copyright (c) 2021, SAMSUG
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+config SOC_FAMILY_SAMSUNG
+  bool
+  # omit prompt to signify a "hidden" option
+  default n
+
+if SOC_FAMILY_SAMSUNG
+config SOC_FAMILY
+  string
+  default "samsung_soc"
+endif
+
+source "soc/arm/samsung/*/Kconfig.soc"

@@ -1,0 +1,31 @@
+
+
+/dts-v1/;
+
+#include <samsung/sm.dtsi>
+
+/{
+	model= "Samsung Board";
+	compatible="samsung,samsung_board";
+
+	chosen{
+		zephyr,console=&uart0;
+		zephyr,shell-uart=&uart0;
+		zephyr,bt-mon-uart=&uart0;
+		zephyr,bt-c2h-uart=&uart0;
+		zephyr,sram=&sram0;
+		
+	};
+};
+
+
+
+
+&uart0 {
+	status = "okay";
+	current-speed = <115200>;
+	tx-pin = <24>;
+	rx-pin = <25>;
+};
+
+

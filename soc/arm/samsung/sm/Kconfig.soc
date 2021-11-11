@@ -1,0 +1,20 @@
+# Kconfig - i.MX RT series
+#
+# Copyright (c) 2017, NXP
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+choice
+prompt "i.MX RT Selection"
+depends on SOC_SERIES_SM
+
+config SOC_SM1052
+	bool "SOC_SM1052"
+	select HAS_MCUX
+	select HAS_MCUX_CCM
+	select HAS_MCUX_IGPIO
+	select HAS_MCUX_LPUART
+	select CPU_HAS_FPU
+
+endchoice
