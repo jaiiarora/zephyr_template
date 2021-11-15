@@ -1,6 +1,0 @@
-board directory works fine
-soc is causing error
-
- soc/arm/samsung/Kconfig.defconfig:7
-arch/arm/soc/samsung/*/Kconfig.defconfig.series' not found (in 'source "arch/arm/soc/samsung/*/Kconfig.defconfig.series"'). Check that environment variables are set correctly (e.g. $srctree, which is set to '/home/airj23/zephyrproject/zephyr'). Also note that unset environment variables expand to the empty string.
-
