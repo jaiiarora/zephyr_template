@@ -5,6 +5,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+
+#For configuring the invisible symbols for System on Chip series
+
 if SOC_SERIES_SM
 
 config SOC_SERIES

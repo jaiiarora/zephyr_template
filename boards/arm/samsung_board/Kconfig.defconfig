@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# This file contains invisible symbols that select hardware interfaces and sets its default values
+
 if BOARD_SAMSUNG
 
 config BOARD

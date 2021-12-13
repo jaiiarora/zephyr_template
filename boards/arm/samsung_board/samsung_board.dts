@@ -2,6 +2,10 @@
 
 /dts-v1/;
 
+/*
+ * Set the status of external devices, and extend the device tree SOC settings here
+ */
+
 #include <samsung/sm.dtsi>
 
 /{

@@ -1,9 +1,12 @@
-# Kconfig - sm1052
 #
 # Copyright (c) 2021, SAMSUNG
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+
+#Kconfig for the SM_1052 series, a System on Chip for the Samsung Family
+
 
 if SOC_SM1052
 

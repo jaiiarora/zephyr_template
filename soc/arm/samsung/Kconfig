@@ -5,6 +5,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+
+#Kconfig file for the SOC family 
+
 config SOC_FAMILY_SAMSUNG
   bool
   # omit prompt to signify a "hidden" option

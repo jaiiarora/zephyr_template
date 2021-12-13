@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+#The main Kconfig file for the board directory
+
 config BOARD_SAMSUNG
   bool "Samsung Board"
   depends on SOC_SERIES_SM

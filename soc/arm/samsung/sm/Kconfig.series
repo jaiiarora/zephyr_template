@@ -5,6 +5,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+#The Kconfig file for System on Chip  series
+#Select all the configuration options here
+
 config SOC_SERIES_SM
 	bool "Sm Series"
 	select CPU_CORTEX_M

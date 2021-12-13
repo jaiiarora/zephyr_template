@@ -1,12 +1,16 @@
-# Kconfig - i.MX RT series
 #
-# Copyright (c) 2017, NXP
+# Copyright (c) 2021, Samsung
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# The main Kconfig fle for the System on Chip
+# A config option needs to be created for  the SOC part number here.
+# The SOC_PART_NUMBER needs to  be a hidden option that should not be set directly
+
+
 choice
-prompt "i.MX RT Selection"
+prompt "Samsung SOC Series Selection"
 depends on SOC_SERIES_SM
 
 config SOC_SM1052

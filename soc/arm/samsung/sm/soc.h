@@ -14,7 +14,12 @@
  #ifndef _SOC__H_
  #define _SOC__H_
 
-// IRQ numbers (Refer to Datasheet, Peripheral Identifiers).
+// IRQ numbers (Refer to Datasheet, Peripheral Identifiers)
+
+/*
+ * Need to Configure your Macros in this header file as done below
+ */
+ 
 /*
  #define IRQ_SUPC	0	// Supply Controller
  #define IRQ_RSTC	1	// Reset Controller

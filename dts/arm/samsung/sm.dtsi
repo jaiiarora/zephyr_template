@@ -4,6 +4,11 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+/* Define your peripherals and feature properties present in your System on Chip here 
+   Refer to the datasheet for the address of various peripherals and other properties
+*/
+
+
  #include <mem.h>
  #include <arm/armv7-a.dtsi>
  #include <dt-bindings/interrupt-controller/arm-gic.h>
